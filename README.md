@@ -17,7 +17,7 @@ My Complete path with Dart (them flutter)
 <p align="left">
   🦄 Main Language: <strong> 
   
-  ![Dart](https://img.shields.io/badge/Dart-ED8B00?style=for-the-badge&logo=dart&logoColor=white) 
+  ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) 
     
   </strong>
 </p>
