@@ -1,9 +1,11 @@
 void main() {
-  const String stringing = 'Const não muda depois que setado';
-  final String
-      ending; //por enquanto fica esperando uma informação, depois que recebe não pode alterar mais
-  var almostNull =
-      27; //quando não se sabe o formato da variável, o dart ele acha conforme o que recebe
+  const String texto = 'Const não muda depois que setado';
+
+  //por enquanto fica esperando uma informação, depois que recebe não pode alterar mais
+  final String ending;
+
+  //quando não se sabe o formato da variável, o dart ele acha conforme o que recebe
+  var almostNull = 27;
 
   int idade = 21;
   double altura = 1.70;
