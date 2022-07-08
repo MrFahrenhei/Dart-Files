@@ -1,9 +1,11 @@
+import 'dart:io';
+
 class FindRound {
   static const double pi = 3.14159;
   final double raio;
   FindRound(this.raio);
 
-  int elevated(input) {
+  double elevated(input) {
     return input * input;
   }
 
@@ -17,7 +19,9 @@ class FindRound {
   }
 }
 
-void maind() {
-  FindRound circle = FindRound(2);
+void main() {
+  print("Raio do círculo");
+  double raio = double.parse(stdin.readLineSync()!);
+  FindRound circle = FindRound(raio);
   print(circle);
 }
