@@ -8,7 +8,7 @@ void main() {
   posicionaisObrigatorios("Uva", 40);
   nomeadosOpcionais("Maçã", 30, colors: corFruta);
   padraoParametros("Pera", 20);
-  modifierRequired(name: "Banana", days: 10, colors: "Amarela");
+  modifierRequired(name: "Banana", days: 11, colors: "Amarela");
 }
 
 // 1 - Posicionais Obrigatórios
